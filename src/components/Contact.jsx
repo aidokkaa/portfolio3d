@@ -5,8 +5,6 @@ import {styles} from '../styles';
 import {EarthCanvas} from './canvas'
 import {SectionWrapper} from '../hoc'
 import { slideIn } from '../utils/motion';
-// service_ctwae0s
-// template_4k8tx4n
 const Contact = () => {
   const formRef= React.useRef();
   const [form,setForm]=React.useState({

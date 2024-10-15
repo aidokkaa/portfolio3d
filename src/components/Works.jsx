@@ -6,7 +6,8 @@ import {github} from '../assets';
 import {SectionWrapper} from '../hoc';
 import { fadeIn,textVariant } from '../utils/motion';
 import { projects } from '../constants';
-const ProjectCard=({index,name,description,tags,image,repo,link})=>{
+import { a } from 'maath/dist/objectSpread2-284232a6.esm';
+const ProjectCard=({index,name,description,tags,image,repo,showDemo})=>{
   return(
     <motion.div variants={fadeIn("up","spring",index* 0.5,0.75)}>
       <Tilt 
@@ -24,8 +25,12 @@ const ProjectCard=({index,name,description,tags,image,repo,link})=>{
           </div>
         </div>
         <div className='mt-5'>
-        <a href={link}><h3 className='text-white font-bold text-[24px]'>{name}</h3></a>
+        <h3 className='text-white font-bold text-[24px]'>{name}</h3>
+        {showDemo && (
+          <a href="https://appliancech.vercel.app/">Website Demo</a>
+        )}
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+        
         </div>
         <div className='mt-4 flex flex-wrap gap-2'>
           {tags.map((tag)=>(
@@ -54,7 +59,8 @@ const Works = () => {
     {
       projects.map((project,index)=>(
         <ProjectCard key = {`project-${index}`}
-        index={index}
+        index={index} 
+        showDemo={index === 0}
         {...project}/>
       ))
     }

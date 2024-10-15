@@ -2,7 +2,7 @@ import React from 'react'
 import {motion} from 'framer-motion';
 import {styles} from '../styles';
 import {ComputersCanvas} from './canvas'
-import { FaCircleArrowDown } from "react-icons/fa6";
+
 const Hero = () => {
   return (
     <section className='relative w-full h-screen mx-auto'>
@@ -18,9 +18,6 @@ const Hero = () => {
             </p>
             
           </div>
-        {/* <h1 style={{margin:"60px",fontWeight:"bold",fontSize:"23px"}}>Spin it
-        <p style={{margin:"20px 32px",fontSize:'34px'}}><FaCircleArrowDown/></p>
-        </h1> */}
         
          </div>
          <ComputersCanvas/>

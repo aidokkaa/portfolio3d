@@ -50,7 +50,7 @@ import {
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Node Js ",
       icon: backend,
     },
     {
@@ -231,7 +231,7 @@ import {
       ],
       image: addrecipe,
       repo: "https://github.com/aidokkaa/recipe",
-      link:"https://cheff-e586dbdc255c.herokuapp.com/"
+      link:""
     },
     {
       name: "GreenForce",
