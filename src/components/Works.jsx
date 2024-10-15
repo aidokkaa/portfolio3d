@@ -27,7 +27,7 @@ const ProjectCard=({index,name,description,tags,image,repo,showDemo})=>{
         <div className='mt-5'>
         <h3 className='text-white font-bold text-[24px]'>{name}</h3>
         {showDemo && (
-          <a href="https://appliancech.vercel.app/">Website Demo</a>
+          <a style={{color:"#f00c93"}} href="https://appliancech.vercel.app/">Website Demo</a>
         )}
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         
