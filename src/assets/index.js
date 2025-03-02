@@ -21,13 +21,12 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import green from './green.png'
-import addrecipe from './addrecipe.png';
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import repair from "./repair.png";
-
+import taskpro from './taskproo.png'
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -58,8 +57,8 @@ export {
   starbucks,
   tesla,
   repair,
-  addrecipe,
   green,
   jobit,
+  taskpro,
   tripguide,
 };

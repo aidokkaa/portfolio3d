@@ -22,7 +22,7 @@ import {
     repair,
     green,
     jobit,
-    addrecipe
+    taskpro
   } from "../assets";
   
   export const navLinks = [
@@ -50,7 +50,7 @@ import {
       icon: mobile,
     },
     {
-      title: "Node Js ",
+      title: "Rest API ",
       icon: backend,
     },
     {
@@ -85,24 +85,8 @@ import {
       icon: redux,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
       name: "MongoDB",
       icon: mongodb,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
     },
     {
       name: "MySql",
@@ -209,12 +193,12 @@ import {
       ],
       image: repair,
       repo: "https://github.com/aidokkaa/appliance",
-      link:"https://appliancech.vercel.app/"
+      link:"https://smartappliancerepair01.com/"
     },
     {
-      name: "Add recipes",
+      name: "Protasker",
       description:
-        "I developed a recipe management site using React and JSON server. The site allows users to easily add, update, and delete recipes.",
+        "I developed Protasker, a business task management platform that allows managers to assign tasks to employees and track their progress.",
       tags: [
         {
           name: "react",
@@ -225,12 +209,20 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "json-server",
+          name: "PostgreSQL",
           color: "pink-text-gradient",
         },
+        {
+          name: "Express",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Context API",
+          color: "blue-text-gradient",
+        },
       ],
-      image: addrecipe,
-      repo: "https://github.com/aidokkaa/recipe",
+      image: taskpro,
+      repo: "https://github.com/aidokkaa/protasker",
       link:""
     },
     {

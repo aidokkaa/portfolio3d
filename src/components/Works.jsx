@@ -6,7 +6,7 @@ import {github} from '../assets';
 import {SectionWrapper} from '../hoc';
 import { fadeIn,textVariant } from '../utils/motion';
 import { projects } from '../constants';
-import { a } from 'maath/dist/objectSpread2-284232a6.esm';
+
 const ProjectCard=({index,name,description,tags,image,repo,showDemo})=>{
   return(
     <motion.div variants={fadeIn("up","spring",index* 0.5,0.75)}>
@@ -27,7 +27,7 @@ const ProjectCard=({index,name,description,tags,image,repo,showDemo})=>{
         <div className='mt-5'>
         <h3 className='text-white font-bold text-[24px]'>{name}</h3>
         {showDemo && (
-          <a style={{color:"#f00c93"}} href="https://appliancech.vercel.app/">Website Demo</a>
+          <a style={{color:"#f00c93"}} href="https://smartappliancerepair01.com/">Website Demo</a>
         )}
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         
