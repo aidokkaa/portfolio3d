@@ -226,34 +226,30 @@ import {
       link:""
     },
     {
-      name: "GreenForce",
+      name: "ABCLearn",
       description:
-        "Developed a full-stack e-commerce website using the MERN stack. Users can register, log in, browse a variety of microgreens, place orders, and make payments. The site is fully responsive for optimal use on different devices.",
+        "Developed an interactive educational app that helps children aged 3–8 learn the English alphabet, basic grammar, and reading through fun and games.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Context",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "hooks",
           color: "pink-text-gradient",
         },
         {
           name: "typescript",
           color: "blue-text-gradient",
         },
-        {
-          name: "stripe",
-          color: "white-text-gradient",
-        },
       ],
-      image: green,
-      repo: "https://github.com/aidokkaa/greenforce",
-      link:""
+      image: 'https://static.vecteezy.com/system/resources/thumbnails/007/078/390/small_2x/the-letters-abc-in-doodle-style-hand-drawn-colorful-illustration-design-elements-are-isolated-on-a-white-background-vector.jpg',
+      repo: "https://github.com/aidokkaa/ABCLearn",
+      link:"https://abc-learn-two.vercel.app/"
     },
   ];
   
