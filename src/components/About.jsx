@@ -34,7 +34,7 @@ const About = () => {
     <motion.p variants={fadeIn('','',0.1,1)}
     className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
      
-Hello! I'm Aida, a passionate web developer specializing in creating dynamic and responsive user interfaces for web applications. With experience in React and Node.js, I focus on delivering intuitive, user-friendly designs that enhance user experience. Check out my work below to see how I bring ideas to life through clean, efficient code.
+Hi, I’m Aida, a Front-End Developer specializing in React and Node.js. I build responsive, user-friendly web applications that deliver seamless experiences and real-world impact. Explore my projects below to see how I turn ideas into clean, efficient code.
     </motion.p>
     <div className='mt-20 flex flex-wrap gap-10'>
       {services.map((service,index)=>(

@@ -20,9 +20,7 @@ import {
     tesla,
     shopify,
     repair,
-    green,
-    jobit,
-    taskpro
+    taskpro,icerep
   } from "../assets";
   
   export const navLinks = [
@@ -178,9 +176,9 @@ import {
   
   const projects = [
     {
-      name: "Chicago Appliance Repair",
+      name: "ICE Appliance Repair",
       description:
-        "Developed a business website for scheduling appliance repair services. The functionality includes selecting the date, appliance brand, and automatically sending the request to a technician for processing",
+        "Built a production website for an appliance repair business, enabling clients to submit their information and appliance issues through a form, with automatic routing to technicians.",
       tags: [
         {
           name: "react",
@@ -191,14 +189,14 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: repair,
+      image: icerep,
       repo: "https://github.com/aidokkaa/appliance",
-      link:"https://smartappliancerepair01.com/"
+      link:"https://www.iceapplianceus.com/"
     },
     {
       name: "Protasker",
       description:
-        "I developed Protasker, a business task management platform that allows managers to assign tasks to employees and track their progress.",
+        "Developed Protasker, a business task management platform that allows managers to assign tasks to employees and track their progress.",
       tags: [
         {
           name: "react",
